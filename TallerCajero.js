@@ -15,7 +15,7 @@ function retirarDinero(monto) {
     });
 }
 
-// 2. Consumo de la Promesa (Caso exitoso)
+// Consumo de la Promesa
 console.log("Iniciando transacción 1...");
 retirarDinero(200)
     .then((mensaje) => {
